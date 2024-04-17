@@ -30,3 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+
+function toggleNavbar() {
+    var navMenu = document.querySelector('.nav-menu');
+    navMenu.style.left = navMenu.style.left === '0%' ? '-80%' : '0%';
+}
